@@ -129,6 +129,24 @@ class CenterNextButton extends StatelessWidget {
               position: _loginTextMoveAnimation,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Not have any account? ',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 14,
+                      fontWeight: FontWeight.normal,
+                    ),
+                  ),
+                  Text(
+                    'SignUp',
+                    style: TextStyle(
+                      color: Color(0xff132137),
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
